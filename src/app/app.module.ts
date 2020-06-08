@@ -1,3 +1,4 @@
+import { MeuPrimeiroComponent } from './meu-primeiro/meu-primeiro.component';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { RouterModule } from '@angular/router';
@@ -7,6 +8,7 @@ import { AppComponent } from './app.component';
 import { TopBarComponent } from './top-bar/top-bar.component';
 import { ProductListComponent } from './product-list/product-list.component';
 import { ProductAlertsComponent } from './product-alerts/product-alerts.component';
+import { PrimeiroComponentCliComponent } from './primeiro-component-cli/primeiro-component-cli.component';
 
 @NgModule({
   imports: [
@@ -20,7 +22,9 @@ import { ProductAlertsComponent } from './product-alerts/product-alerts.componen
     AppComponent,
     TopBarComponent,
     ProductListComponent,
-    ProductAlertsComponent
+    ProductAlertsComponent,
+    MeuPrimeiroComponent,
+    PrimeiroComponentCliComponent
   ],
   bootstrap: [ AppComponent ]
 })
